@@ -21,7 +21,7 @@ spec:
     spec:
       containers:
       - name: simple-flask
-        image: IMAGE_TAG
+        image: sri59776/sample-flask-app:latest
         securityContext:
           privileged: false
           readOnlyRootFilesystem: false
